@@ -1,21 +1,24 @@
 # 🔐 Password Manager
 
-Um gerenciador de senhas simples feito em **Python**, que permite salvar, buscar e gerar senhas seguras.  
-O objetivo do projeto é praticar conceitos de **criptografia**, **armazenamento seguro de dados** e **boas práticas em segurança digital**.
+Um gerenciador de senhas simples em **Python**, que permite salvar e buscar credenciais com criptografia.  
+Projeto criado para fins de estudo em segurança e boas práticas de programação.
 
 ---
 
 ## 📦 Tecnologias Utilizadas
 - Python 3.10+
-- Biblioteca `cryptography` para criptografia de dados
-- SQLite para armazenamento local
+- Biblioteca [cryptography](https://pypi.org/project/cryptography/)
+- SQLite (banco de dados local)
 
 ---
 
-## 🚀 Como Executar o Projeto
+## 🚀 Como Executar
 
 Clone o repositório:
 ```bash
-git clone https://github.com/exemplo/password-manager.git
-cd password-manager
-# Password-Manager
+git clone https://github.com/seu-usuario/meu-password-manager.git
+cd meu-password-manager
+
+pip install -r requirements.txt
+
+python main.py
